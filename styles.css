@@ -264,6 +264,10 @@ main {
         padding: 20px 0px;
     }
 
+    header {
+      background-color: #010101;
+    }
+
     main {
         padding: 90px 20px;
     }
