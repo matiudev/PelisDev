@@ -11,15 +11,19 @@
     <header>
         <nav>
             <div class="divimg-nav">
-                <img src="logo.png" alt="">
+                <img src="logo.png" alt="logo">
             </div>
-            <div class="div1-nav">
+            <ul id="menuList" class="div1-nav">
                 <li><i class="fa-solid fa-house-chimney" style="color: #127bd5"></i><a href="#main">INICIO</a></li>
                 <li><i class="fa-solid fa-film" style="color: #127bd5"></i><a href="#tendencia">TENDENCIA</a></li>
                 <li><i class="fa-solid fa-film" style="color: #127bd5"></i><a href="#estrenos">ESTRENOS</a></li>
                 <li><i class="fa-solid fa-tv" style="color: #127bd5"></i><a href="#series">SERIES</a></li>
+            </ul>
+            <div class="menu-icon">
+                <i class="fa-solid fa-bars" style="color: white;" onclick="toggleMenu()"></i>
             </div>
         </nav>
+        
     </header>
 
     <main id="main">
@@ -40,13 +44,13 @@
     </main>
     
 
-    <div style="display: flex; justify-content: start; align-items: center; gap: 20px;">
-        <i class="fa-solid fa-fire" style="color: #f65c09;"></i>
-        <h2 style="color: white;">Tendencia</h2>
-    </div>
 
     <!-- PELICULAS TENDENCIA -->
     <div id="tendencia" class="container">
+        <div style="display: flex; justify-content: start; align-items: center; gap: 20px;">
+            <i class="fa-solid fa-fire" style="color: #f65c09;"></i>
+            <h2 style="color: white;">Tendencia</h2>
+        </div>
         <div class="card-container"></div>
     </div>
 

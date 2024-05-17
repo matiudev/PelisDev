@@ -250,9 +250,26 @@ function mostrarTodasLasPeliculas() {
     });
 }
 
+
 // Llama a las funciones para mostrar las películas cuando la página cargue
 window.onload = () => {
     mostrarTodasLasPeliculas();
     mostrarPeliculasRecienEstrenadas();
     mostrarSeriesPopulares();
 };
+
+
+
+
+
+let menuList = document.getElementById("menuList")
+menuList.style.maxHeight = "0px";
+
+function toggleMenu() {
+    if (menuList.style.maxHeight == "0px") 
+        {
+        menuList.style.maxHeight = "400px";
+    } else {
+        menuList.style.maxHeight = "0px";
+    }
+}
