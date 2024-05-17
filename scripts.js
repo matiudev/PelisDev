@@ -67,7 +67,7 @@ const peliculasRecienEstrenadas = [
     {
         titulo: "Abigail",
         año: 2024,
-        imagen: "peliculas/terror/Abigail/Abigail.jpg",
+        imagen: "peliculas/terror/Abigail/abigail.jpg",
         imagen_horizontal: "https://m.media-amazon.com/images/M/MV5BMGNmNWY2ZjUtYjE4My00MWY0LTliMzItZTI4ODA2MzU2YjFmXkEyXkFqcGdeQWFybm8@._V1_.jpg",
         genero: "Terror",
         descripcion: "Abigail es una película de terror estadounidense dirigida por Matt Bettinelli-Olpin y Tyler Gillett a partir de un guion escrito por Stephen Shields y Guy Busick."
